@@ -1,3 +1,4 @@
+"use client";
 import { ConvexError, v } from "convex/values";
 
 import { mutation, query } from "./_generated/server";
