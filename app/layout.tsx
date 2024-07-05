@@ -7,7 +7,7 @@ import AudioProvider from "@/providers/AudioProvider";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Podcastr",
+  title: "PodSensei",
   description: "Generate your podcasts using AI",
   icons: {
     icon: '/icons/logo.svg'
@@ -23,7 +23,7 @@ export default function RootLayout({
     <ConvexClerkProvider>
       <html lang="en">
         <AudioProvider>
-          <body className={manrope.className}>
+          <body className={`${manrope.className}`}>
               {children}
           </body>
         </AudioProvider>
